@@ -1,7 +1,7 @@
 # ELE_DoanLongVu
 
 ## Báo cáo ngày 4/2/2024
-- Link báo cáo [Báo cáo ngày 4/2/2024](https://github.com/ptitopen-git/D21_DoanLongVu/blob/main/FPGA/240402/README.md)
+- Link báo cáo [Báo cáo ngày 4/2/2024](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240402/README.md)
 - Công việc đã làm:
 	1. Xây dựng LUT 
 	2. Thực hiện tính hàng nhân cột (hàng có 2 phần tử, cột có 2 phần tử) 
