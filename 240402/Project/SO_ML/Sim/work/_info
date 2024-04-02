@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vComplex_Matrix_Mul
+!s110 1711189160
+!i10b 1
+!s100 4@IiPE4?7>I[6R^<]7QJI0
+IIF]L;YJYHDj2PLnRcE0;P0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/LAB_FPGA/SO_ML/Sim
+w1711189156
+8D:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\Matrix_Mul.v
+FD:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\Matrix_Mul.v
+L0 7
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1711189160.000000
+!s107 D:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\Matrix_Mul.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\Matrix_Mul.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@complex_@matrix_@mul
+vrom
+!s110 1710602287
+!i10b 1
+!s100 enj8mGDNi^8VGzVD;MbOk1
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<SZ2?gjEa195fm>@W=K543
+R0
+R1
+w1710602282
+8D:\LAB_FPGA\SO_ML\RTL\rom.v
+FD:\LAB_FPGA\SO_ML\RTL\rom.v
+!i122 38
+L0 1 391
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1710602287.000000
+!s107 D:\LAB_FPGA\SO_ML\RTL\rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\LAB_FPGA\SO_ML\RTL\rom.v|
+!i113 1
+R3
+R4
+vTB_Mul
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1711189054
+!i10b 1
+!s100 jf<N6Dj?l`n[K@U]82l9B3
+I@U<]niA75^D7SN2iz?3e:0
+R0
+!s105 TB_Mul_sv_unit
+S1
+R1
+w1711189052
+8D:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\TB_Mul.sv
+FD:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\TB_Mul.sv
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1711189054.000000
+!s107 D:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\TB_Mul.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\LAB_FPGA\SO_ML\RTL\MUL_A1_A2\TB_Mul.sv|
+!i113 1
+Z7 o-work work -sv
+R4
+n@t@b_@mul
+vtb_rom
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1710606744
+!i10b 1
+!s100 dhnH?BeQ5RYMZD]l[M>KM1
+R5
+Ig>1WFMIoE;B:7:B^oR^1Q2
+R0
+S1
+R1
+w1710606739
+8D:\LAB_FPGA\SO_ML\RTL\tb_rom.sv
+FD:\LAB_FPGA\SO_ML\RTL\tb_rom.sv
+!i122 41
+L0 2 48
+R6
+r1
+!s85 0
+31
+!s108 1710606744.000000
+!s107 D:\LAB_FPGA\SO_ML\RTL\tb_rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\LAB_FPGA\SO_ML\RTL\tb_rom.sv|
+!i113 1
+R7
+R4

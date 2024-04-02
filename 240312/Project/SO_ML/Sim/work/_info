@@ -1,0 +1,207 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/VLSI/UDEMY_COURSE/Count_Up_Basic
+vCalculator
+Z0 !s110 1709981303
+!i10b 1
+!s100 1bc8[aPifTB^ZH_12]A0]3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IFgSZHfZa][IhHkEc:]2ZM3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/LAB_ThaySu/SO_ML/Sim
+w1709981280
+Z4 8D:\LAB_ThaySu\SO_ML\RTL\Design.v
+Z5 FD:\LAB_ThaySu\SO_ML\RTL\Design.v
+!i122 20
+L0 21 39
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1709981303.000000
+Z8 !s107 D:\LAB_ThaySu\SO_ML\RTL\Design.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:\LAB_ThaySu\SO_ML\RTL\Design.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@calculator
+vDesign
+!s110 1710232675
+!i10b 1
+!s100 7z]SiFCz=;dI>Xh^=C8bj3
+R1
+IcAh?G0Q^@hVJU?no52_FE1
+R2
+R3
+w1710232382
+R4
+R5
+!i122 29
+L0 1 116
+R6
+r1
+!s85 0
+31
+!s108 1710232675.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@design
+vlookup_table
+!s110 1709914386
+!i10b 1
+!s100 n2_zN`4i_3zE0b:g`U;jE1
+R1
+I_7K<ajijgNK=SGnB2b6>o3
+R2
+R3
+w1709914384
+Z12 8D:/LAB_ThaySu/SO_ML/RTL/Design.v
+Z13 FD:/LAB_ThaySu/SO_ML/RTL/Design.v
+!i122 0
+L0 1 65
+R6
+r1
+!s85 0
+31
+!s108 1709914386.000000
+Z14 !s107 D:/LAB_ThaySu/SO_ML/RTL/Design.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|D:/LAB_ThaySu/SO_ML/RTL/Design.v|
+!i113 1
+R10
+R11
+vLUT_vb
+!s110 1709972045
+!i10b 1
+!s100 21W:l7??]AIYl>fkzD^Z<3
+R1
+IaTk6;m3ioZ><i9_b1U@_P2
+R2
+R3
+w1709972041
+R12
+R13
+!i122 4
+L0 1 106
+R6
+r1
+!s85 0
+31
+!s108 1709972045.000000
+R14
+R15
+!i113 1
+R10
+R11
+n@l@u@t_vb
+vmatrixMult
+Z16 !s110 1709982772
+!i10b 1
+!s100 [7zdk^6B=ZX@J?8@ceNF43
+R1
+Ic[>D3b`YPH1^N_aM7:Fh82
+R2
+R3
+w1709982747
+R4
+R5
+!i122 22
+L0 3 58
+R6
+r1
+!s85 0
+31
+Z17 !s108 1709982772.000000
+R8
+R9
+!i113 1
+R10
+R11
+nmatrix@mult
+vMatrixMultiply_tb
+Z18 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R16
+!i10b 1
+!s100 OE8c9cg`6lOVhgilNTC2:0
+R1
+I4a7jY]P:=7[0e=GOgH2S;1
+R2
+S1
+R3
+w1709982764
+Z19 8D:\LAB_ThaySu\SO_ML\RTL\TB_design.sv
+Z20 FD:\LAB_ThaySu\SO_ML\RTL\TB_design.sv
+!i122 21
+L0 13 94
+R6
+r1
+!s85 0
+31
+R17
+Z21 !s107 D:\LAB_ThaySu\SO_ML\RTL\TB_design.sv|
+Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\LAB_ThaySu\SO_ML\RTL\TB_design.sv|
+!i113 1
+Z23 o-work work -sv
+R11
+n@matrix@multiply_tb
+vTB_design
+R18
+!s110 1710232840
+!i10b 1
+!s100 @^CjKadGW1WMf=ojIUdY?0
+R1
+IR3BdLem90RiV^fnkk0@ea1
+R2
+S1
+R3
+w1710232785
+R19
+R20
+!i122 30
+L0 1 21
+R6
+r1
+!s85 0
+31
+!s108 1710232840.000000
+R21
+R22
+!i113 1
+R23
+R11
+n@t@b_design
+vtest_bench
+R18
+R0
+!i10b 1
+!s100 BV;Lma`HjA]^aR6feAKO<1
+R1
+I]BC0VojAmPR=5F^glRPab0
+R2
+S1
+R3
+w1709981297
+R19
+R20
+!i122 19
+L0 21 21
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 1
+R23
+R11

@@ -1,0 +1,21 @@
+module Mul2vector()
+	input [7:0] A;
+	input [7:0] B;
+	output reg [8:0] C;
+	
+	reg [3:0] A0,A1,B0,B1;
+	{A0,A1} = A;
+	{B0,B1,} = B;
+	
+	reg mulA;
+	reg mulB;
+	
+	
+	Mul4bit m1(A0,B0,mulA);
+	mul4bit m2(A1,B1,mulB);
+	
+	reg cin = 1'b0;
+	reg cout;
+	adder8bit(C,mulA,mulB,Cin);
+	
+endmodule

@@ -1,0 +1,170 @@
+# Compile of Design.v failed with 1 errors.
+# Compile of Design.v failed with 1 errors.
+# Compile of Design.v failed with 1 errors.
+# Compile of Design.v failed with 1 errors.
+# Compile of Design.v failed with 5 errors.
+# Compile of Design.v failed with 1 errors.
+# Compile of Design.v failed with 1 errors.
+# Compile of Design.v was successful.
+# Compile of TB_design.sv failed with 1 errors.
+# Compile of TB_design.sv failed with 1 errors.
+# Compile of TB_design.sv was successful.
+vsim -gui work.TB_design
+# vsim -gui work.TB_design 
+# Start time: 15:17:16 on Mar 12,2024
+# Loading sv_std.std
+# Loading work.TB_design
+# Loading work.Design
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'OUT'. The port definition is at: D:/LAB_ThaySu/SO_ML/RTL/Design.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_design/DUT File: D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv Line: 7
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end  sim:/TB_design/en
+add wave -position end  sim:/TB_design/index
+add wave -position end  sim:/TB_design/index1
+add wave -position end  sim:/TB_design/OUT
+run -all
+# OUT : xx
+quit -sim
+# End time: 15:17:52 on Mar 12,2024, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 13
+# Compile of TB_design.sv was successful.
+vsim -gui work.TB_design
+# vsim -gui work.TB_design 
+# Start time: 15:19:05 on Mar 12,2024
+# Loading sv_std.std
+# Loading work.TB_design
+# Loading work.Design
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'OUT'. The port definition is at: D:/LAB_ThaySu/SO_ML/RTL/Design.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_design/DUT File: D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv Line: 7
+add wave -position end  sim:/TB_design/en
+add wave -position end  sim:/TB_design/index
+add wave -position end  sim:/TB_design/index1
+add wave -position end  sim:/TB_design/OUT
+run -all
+# OUT : 01
+# ** Note: $stop    : D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv(13)
+#    Time: 110 ps  Iteration: 0  Instance: /TB_design
+# Break in Module TB_design at D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv line 13
+quit -sim
+# End time: 15:19:45 on Mar 12,2024, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 3
+# Compile of TB_design.sv was successful.
+vsim -gui work.TB_design
+# vsim -gui work.TB_design 
+# Start time: 15:20:58 on Mar 12,2024
+# Loading sv_std.std
+# Loading work.TB_design
+# Loading work.Design
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'OUT'. The port definition is at: D:/LAB_ThaySu/SO_ML/RTL/Design.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_design/DUT File: D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv Line: 7
+add wave -position end  sim:/TB_design/en
+add wave -position end  sim:/TB_design/index
+add wave -position end  sim:/TB_design/index1
+add wave -position end  sim:/TB_design/OUT
+run -all
+# OUT : 01
+# ** Note: $stop    : D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv(16)
+#    Time: 140 ps  Iteration: 0  Instance: /TB_design
+# Break in Module TB_design at D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv line 16
+quit -sim
+# End time: 15:21:49 on Mar 12,2024, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 3
+# Compile of TB_design.sv was successful.
+vsim -gui work.TB_design
+# vsim -gui work.TB_design 
+# Start time: 15:22:24 on Mar 12,2024
+# Loading sv_std.std
+# Loading work.TB_design
+# Loading work.Design
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (2) for port 'OUT'. The port definition is at: D:/LAB_ThaySu/SO_ML/RTL/Design.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_design/DUT File: D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv Line: 7
+add wave -position end  sim:/TB_design/en
+add wave -position end  sim:/TB_design/index
+add wave -position end  sim:/TB_design/index1
+add wave -position end  sim:/TB_design/OUT
+run -all
+# OUT : 01
+# OUT : 11
+# OUT : 01
+# ** Note: $stop    : D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv(16)
+#    Time: 140 ps  Iteration: 0  Instance: /TB_design
+# Break in Module TB_design at D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv line 16
+quit -sim
+# End time: 15:23:47 on Mar 12,2024, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 3
+# Compile of TB_design.sv was successful.
+# Compile of Design.v was successful.
+vsim -gui work.TB_design
+# vsim -gui work.TB_design 
+# Start time: 15:38:06 on Mar 12,2024
+# Loading sv_std.std
+# Loading work.TB_design
+# Loading work.Design
+add wave -position end  sim:/TB_design/en
+add wave -position end  sim:/TB_design/index
+add wave -position end  sim:/TB_design/index1
+add wave -position end  sim:/TB_design/OUT
+run -all
+# OUT : xx
+# OUT : xx
+# OUT : 01
+# OUT : 01
+# OUT : 01
+# OUT : 11
+# ** Note: $stop    : D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv(21)
+#    Time: 140 ps  Iteration: 0  Instance: /TB_design
+# Break in Module TB_design at D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv line 21
+vsim -gui work.TB_design
+# End time: 15:39:57 on Mar 12,2024, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 3
+# vsim -gui work.TB_design 
+# Start time: 15:39:57 on Mar 12,2024
+# Loading sv_std.std
+# Loading work.TB_design
+# Loading work.Design
+add wave -position end  sim:/TB_design/en
+add wave -position end  sim:/TB_design/index
+add wave -position end  sim:/TB_design/index1
+add wave -position end  sim:/TB_design/OUT
+run -all
+# OUT : xx
+# OUT : xx
+# OUT : 01
+# OUT : 01
+# OUT : 01
+# OUT : 11
+# ** Note: $stop    : D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv(21)
+#    Time: 140 ps  Iteration: 0  Instance: /TB_design
+# Break in Module TB_design at D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv line 21
+quit -sim
+# End time: 15:40:29 on Mar 12,2024, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1
+# Compile of TB_design.sv was successful.
+vsim -gui work.TB_design
+# vsim -gui work.TB_design 
+# Start time: 15:40:48 on Mar 12,2024
+# Loading sv_std.std
+# Loading work.TB_design
+# Loading work.Design
+add wave -position end  sim:/TB_design/en
+add wave -position end  sim:/TB_design/index
+add wave -position end  sim:/TB_design/index1
+add wave -position end  sim:/TB_design/OUT
+run -all
+# OUT : xx
+# OUT : xx
+# OUT : 01
+# OUT : 01
+# OUT : 11
+# ** Note: $stop    : D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv(19)
+#    Time: 140 ps  Iteration: 0  Instance: /TB_design
+# Break in Module TB_design at D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv line 19
+quit -sim
+# End time: 15:45:31 on Mar 12,2024, Elapsed time: 0:04:43
+# Errors: 0, Warnings: 2

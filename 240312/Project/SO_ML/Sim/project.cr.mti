@@ -1,0 +1,8 @@
+D:/LAB_ThaySu/SO_ML/RTL/TB_design.sv {1 {vlog -work work -sv -stats=none {D:\LAB_ThaySu\SO_ML\RTL\TB_design.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB_design
+
+Top level modules:
+	TB_design
+
+} {} {}}
