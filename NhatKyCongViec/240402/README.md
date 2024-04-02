@@ -1,4 +1,4 @@
-# Báo cáo công việc ngày 12/3/2024
+# Báo cáo công việc ngày 2/4/2024
 ## A. Công việc đã làm
 - Xây dựng LUT
 - Thực hiện tính hàng nhân cột (hàng có 2 phần tử, cột có 2 phần tử)
