@@ -1,0 +1,33 @@
+module adder_2bit(cout,s,A,B,cin);
+	input [1:0] A,B;
+	input cin;
+	output [1:0] s;
+	output cout;
+	
+	always @(*)
+		begin
+			{cout,s} = A+B+cin;
+		end
+endmodule
+
+module add(cout,s,A,B,cin);
+
+input [7:0] A;
+input [7:0] B;
+input cin;
+output [7:0] s;
+output cout;
+wire c1,c2,c3,cout_tmp;
+wire [7:0] s_temp;
+adder_2bit adder1(c1,s_temp[1:0],A[1:0],B[1:0],cin);
+adder_2bit adder2(c2,s_temp[3:2],A[3:2],B[3:2],c1);
+adder_2bit adder3(c3,s_temp[5:4],A[5:4],B[5:4],c2);
+adder_2bit adder3(cout_tmp,s_temp[7:6],A[7:6],B[7:6],c3);
+
+
+always @(*)
+	begin
+	s <= s_temp;
+	cout <= cout_mp;
+	end
+endmodule

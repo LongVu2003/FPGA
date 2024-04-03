@@ -1,0 +1,108 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do project_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/LAB_FPGA/SO_ML/RTL/main {D:/LAB_FPGA/SO_ML/RTL/main/Mul4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:47:14 on Apr 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LAB_FPGA/SO_ML/RTL/main" D:/LAB_FPGA/SO_ML/RTL/main/Mul4bit.v 
+# -- Compiling module Mul4bit
+# 
+# Top level modules:
+# 	Mul4bit
+# End time: 08:47:14 on Apr 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LAB_FPGA/SO_ML/RTL/main {D:/LAB_FPGA/SO_ML/RTL/main/adder8bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:47:14 on Apr 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LAB_FPGA/SO_ML/RTL/main" D:/LAB_FPGA/SO_ML/RTL/main/adder8bit.v 
+# -- Compiling module adder_2bit
+# -- Compiling module adder8bit
+# 
+# Top level modules:
+# 	adder8bit
+# End time: 08:47:15 on Apr 02,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LAB_FPGA/SO_ML/RTL/main {D:/LAB_FPGA/SO_ML/RTL/main/Mul2vector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:47:15 on Apr 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LAB_FPGA/SO_ML/RTL/main" D:/LAB_FPGA/SO_ML/RTL/main/Mul2vector.v 
+# -- Compiling module Mul2vector
+# 
+# Top level modules:
+# 	Mul2vector
+# End time: 08:47:15 on Apr 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/LAB_FPGA/SO_ML/RTL/main {D:/LAB_FPGA/SO_ML/RTL/main/Mul4x2_2x2Matrix.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:47:15 on Apr 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LAB_FPGA/SO_ML/RTL/main" D:/LAB_FPGA/SO_ML/RTL/main/Mul4x2_2x2Matrix.v 
+# -- Compiling module Mul4x2_2x2Matrix
+# 
+# Top level modules:
+# 	Mul4x2_2x2Matrix
+# End time: 08:47:15 on Apr 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/LAB_FPGA/SO_ML/Synth/../RTL/main {D:/LAB_FPGA/SO_ML/Synth/../RTL/main/TB_Mul4x2_2x2Matrix.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:47:15 on Apr 02,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB_FPGA/SO_ML/Synth/../RTL/main" D:/LAB_FPGA/SO_ML/Synth/../RTL/main/TB_Mul4x2_2x2Matrix.sv 
+# -- Compiling module TB_Mul4x2_2x2Matrix
+# 
+# Top level modules:
+# 	TB_Mul4x2_2x2Matrix
+# End time: 08:47:15 on Apr 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TB_Mul4x2_2x2Matrix
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" TB_Mul4x2_2x2Matrix 
+# Start time: 08:47:15 on Apr 02,2024
+# Loading sv_std.std
+# Loading work.TB_Mul4x2_2x2Matrix
+# Loading work.Mul4x2_2x2Matrix
+# Loading work.Mul2vector
+# Loading work.Mul4bit
+# Loading work.adder8bit
+# Loading work.adder_2bit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Ma tran A
+# [ 1  2]
+# [ 2  2]
+# [ 2  1]
+# [ 2  3]
+# Ma tran B 
+# [ 6  5]
+# [ 1  3]
+# Ma tran ket qua
+# [  8  11]
+# [ 14  16]
+# [ 13  13]
+# [ 15  19]
+# Ma tran A
+# [ 7  2]
+# [ 2  2]
+# [ 2  1]
+# [ 2  6]
+# Ma tran B 
+# [ 6  5]
+# [ 1  3]
+# Ma tran ket qua
+# [ 44  41]
+# [ 14  16]
+# [ 13  13]
+# [ 18  28]
