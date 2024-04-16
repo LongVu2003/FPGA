@@ -35,15 +35,21 @@ Ví dụ chuyển số kiểu float sang dạng số phẩy tĩnh có dấu:
 Em đang thực hiện với số 16 bit (8 bit mô tả phần thập phân 7 bit mô tả phân nguyên và 1 bit dấu)
 
 _Input format:_ 
+
 |1|<- N-Q-1 bits   ->  |<--- Q bits -- >|
+
 |S|I I I I I I I I I I I I l I I I| FFFFFFFFFFFFFFF|
 
 _Inputs:_
+
      i_multiplicand - multiplicand
+	 
 	 i_multiplier   - multiplier
 
 _Output format:_
+
 |1|<- N-Q-1 bits   ->  |<--- Q bits -- >|
+
 |S|I I I I I I I I I I I I l I I I| FFFFFFFFFFFFFFF|
 
 _Output:_
@@ -51,6 +57,7 @@ _Output:_
 	 ovr      - overflow flag
 
 Code : [qmult.v](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/qmult.v)
+
 TestBench : [testMult](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/Test_mult.v)
 
 ### 3. Viết module cộng 2 số 
@@ -58,37 +65,51 @@ TestBench : [testMult](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongVi
 ![image](https://github.com/LongVu2003/FPGA/assets/128148954/a0c1d7e5-37ca-47db-882c-d926a41c13e1)
 
 Input format: 
+
 |1|<- N-Q-1 bits ->|<--- Q bits -->|
+
 |S|IIIIIIIIIIIIIIII|FFFFFFFFFFFFFFF|
 
 Inputs:
+
      a 
+	 
      b 
 
 Output format:
+
 |1|<- N-Q-1 bits ->|<--- Q bits -->|
+
 |S|IIIIIIIIIIIIIIII|FFFFFFFFFFFFFFF|
 
 Output:
+
      c - result
 
 
 CODE : [vadd](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/vadd.v)
+
 Testbench : [Test_add](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/Test_add.v)
 
 ### 4. Viết module nhân 2 ma trận sử dụng số phẩy tĩnh có dấu
 
 - Các bước làm
 - Bước 1 : Viết module thực hiện nhân  hàng 2 phần tử với cột 2 phần tử
+
 Code : [Mul2vector.v](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/Mul2vector.v)
+
 Testbench : [TB_mul2vector.sv](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/tb_mul2vector.v)
 
 - Bước 2 : Viết module thực hiện nhân hàng 4 phần tử với cột 4 phần tử (Gọi instance module Mul2vector.v)
+
  Code : [Mul2vector4x1.v](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/Mul2vector4x1.v)
+ 
  Testbench : [TB_Mul2vector4x1.sv](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/TB_Mul2vector4x1.sv)
 
 - Bước 3 : Viết module nhân 2 ma trận 4x4 và 4x2 (Gọi instance module Mul2Vector4x1.v)
+
 Code : [Mul4x4_4x2Matrix.v](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/Mul4x4_4x2matrix.v)
+
 Testbench : [Mul4x4_4x2Matrix.sv](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240413/Project/RTL/TB_Mul4x4_4x2matrix.sv)
 
 **Kiểm tra** 
