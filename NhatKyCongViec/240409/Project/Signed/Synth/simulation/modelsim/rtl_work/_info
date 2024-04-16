@@ -1,0 +1,128 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/Synth/simulation/modelsim
+vAddNbitSigned
+Z1 !s110 1712154541
+!i10b 1
+!s100 5f@kI1QRhS@aXK]^bC4jJ1
+I?ZMRkh64Sf7QQ>BKA^6:90
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1712142528
+8C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/AddNbitSigned.v
+FC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/AddNbitSigned.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1712154541.000000
+!s107 C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/AddNbitSigned.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed|C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/AddNbitSigned.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed}
+Z7 tCvgOpt 0
+n@add@nbit@signed
+vMul2vector
+R1
+!i10b 1
+!s100 mU504@7j9]VQ7QAX;C0Mk2
+ICeW7@VZSl;a=ZfY[:;^Lk0
+R2
+R0
+w1712153619
+8C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul2vector.v
+FC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul2vector.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul2vector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed|C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul2vector.v|
+!i113 1
+R5
+R6
+R7
+n@mul2vector
+vMul4bit
+R1
+!i10b 1
+!s100 c;=2^9XlbijlUd_cV5NiQ0
+IZcRQeQMS437Z@n5RX3SC51
+R2
+R0
+w1712142229
+8C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4bit.v
+FC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed|C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4bit.v|
+!i113 1
+R5
+R6
+R7
+n@mul4bit
+vMul4x2_2x2Matrix
+R1
+!i10b 1
+!s100 nHl_PjGNzSD>KR4[O;CVR0
+I679HchSYDBHEXmLNkNbm30
+R2
+R0
+w1712154467
+8C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4x2_2x2Matrix.v
+FC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4x2_2x2Matrix.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4x2_2x2Matrix.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed|C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/RTL/main_signed/Mul4x2_2x2Matrix.v|
+!i113 1
+R5
+R6
+R7
+n@mul4x2_2x2@matrix
+vTB_Mul4x2_2x2Matrix
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 D1bToenZJJYPVI;8iIn@U1
+IE8AcM:H42NjFFD5Pm3g@60
+R2
+!s105 TB_Mul4x2_2x2Matrix_sv_unit
+S1
+R0
+w1712154502
+8C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/Synth/../RTL/main_signed/TB_Mul4x2_2x2Matrix.sv
+FC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/Synth/../RTL/main_signed/TB_Mul4x2_2x2Matrix.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/Synth/../RTL/main_signed/TB_Mul4x2_2x2Matrix.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/Synth/../RTL/main_signed|C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/Synth/../RTL/main_signed/TB_Mul4x2_2x2Matrix.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240409/Project/Signed/Synth/../RTL/main_signed}
+R7
+n@t@b_@mul4x2_2x2@matrix

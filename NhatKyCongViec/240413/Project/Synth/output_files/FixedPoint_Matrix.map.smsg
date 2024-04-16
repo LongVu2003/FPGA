@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at TestMultS.v(79): always construct contains both blocking and non-blocking assignments File: C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/TestMultS.v Line: 79

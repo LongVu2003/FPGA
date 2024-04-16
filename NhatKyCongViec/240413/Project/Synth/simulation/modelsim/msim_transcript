@@ -1,0 +1,121 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do FixedPoint_Matrix_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/DELL/OneDrive\ -\ ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL {C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/Mul4x2_2x2Matrix.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:07 on Apr 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL" C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/Mul4x2_2x2Matrix.v 
+# -- Compiling module Mul4x2_2x2Matrix
+# 
+# Top level modules:
+# 	Mul4x2_2x2Matrix
+# End time: 17:26:07 on Apr 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/DELL/OneDrive\ -\ ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL {C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/vadd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:07 on Apr 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL" C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/vadd.v 
+# -- Compiling module vadd
+# 
+# Top level modules:
+# 	vadd
+# End time: 17:26:07 on Apr 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/DELL/OneDrive\ -\ ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL {C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/qmult.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:07 on Apr 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL" C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/qmult.v 
+# -- Compiling module qmult
+# 
+# Top level modules:
+# 	qmult
+# End time: 17:26:07 on Apr 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/DELL/OneDrive\ -\ ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL {C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/Mul2vector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:07 on Apr 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL" C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/RTL/Mul2vector.v 
+# -- Compiling module Mul2vector
+# 
+# Top level modules:
+# 	Mul2vector
+# End time: 17:26:07 on Apr 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/DELL/OneDrive\ -\ ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/Synth/../RTL {C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/Synth/../RTL/TB_Mul4x2_2x2Matrix.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:07 on Apr 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/Synth/../RTL" C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/D21_DoanLongVu/FPGA/240413/Project/Synth/../RTL/TB_Mul4x2_2x2Matrix.sv 
+# -- Compiling module TB_Mul4x2_2x2Matrix
+# 
+# Top level modules:
+# 	TB_Mul4x2_2x2Matrix
+# End time: 17:26:07 on Apr 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TB_Mul4x2_2x2Matrix
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" TB_Mul4x2_2x2Matrix 
+# Start time: 17:26:07 on Apr 16,2024
+# Loading sv_std.std
+# Loading work.TB_Mul4x2_2x2Matrix
+# Loading work.Mul4x2_2x2Matrix
+# Loading work.Mul2vector
+# Loading work.qmult
+# Loading work.vadd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Ma tran A
+# [   128    384]
+# [   128   -896]
+# [  -384    384]
+# [  -896   -896]
+# Ma tran B 
+# [  -896   -896]
+# [  -896   -896]
+# Ma tran ket qua
+# [ -1792  -1792]
+# [  2688   2688]
+# [     0      0]
+# [  6272   6272]
+# Ma tran A
+# [   128    384]
+# [   128   -896]
+# [  -384    384]
+# [  -896   -896]
+# Ma tran B 
+# [  -256   -256]
+# [   256   -512]
+# Ma tran ket qua
+# [   256   -896]
+# [ -1024   1664]
+# [   768   -384]
+# [     0   2688]
+# Ma tran A
+# [   128    384]
+# [   128   -896]
+# [  -384    384]
+# [  -896   -896]
+# Ma tran B 
+# [  -256   -256]
+# [   256   -512]
+# Ma tran ket qua
+# [   256   -896]
+# [ -1024   1664]
+# [   768   -384]
+# [     0   2688]
+# End time: 17:27:07 on Apr 16,2024, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0
