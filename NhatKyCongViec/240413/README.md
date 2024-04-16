@@ -134,8 +134,8 @@ Thực hiện nhân 2 ma trận sau :
 
 ![image](https://github.com/LongVu2003/FPGA/assets/128148954/23b76027-a47c-4be8-aee8-c7bbabd0b900)
 
-- 
 -> So sánh kết quả thấy chính xác.
+
 ![image](https://github.com/LongVu2003/FPGA/assets/128148954/d8f6ed2b-1d33-4155-8eb1-ae4f211bef7d)
 
 
