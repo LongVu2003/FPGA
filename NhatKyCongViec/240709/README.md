@@ -9,10 +9,11 @@
 ![image](https://github.com/user-attachments/assets/3c4ff4c9-02ca-4191-b9e4-6ac59b3468d0)
 ->  Block 1 có chức năng nhân ma trận H với ma trận S và tính toán giá trị Dh
 - Input : gồm : Tín hiệu clk, tín hiệu load_H, tín hiệu rst, 4 hàng của ma trận H (gồm 4 giá trị thực và 4 giá trị ảo)
-- Output : Gồm tín hiệu 
-        - done_H : Khi nhân xong 2 ma trận H và Si
-        - done_Dh : Khi tính toán xong giá trị Dh
-        - out_Hq_r , out_Hq_i : Giá trị thực và ảo của các thành phần trong ma trận kết quả.
+- Output : Gồm tín hiệu
+	- done_H : Khi nhân xong 2 ma trận H và Si
+	- done_Dh : Khi tính toán xong giá trị Dh
+	- out_Hq_r , out_Hq_i : Giá trị thực và ảo của các thành phần trong ma trận kết quả.
+        
 - Mô tả chức năng chung
  Chia làm 2 phần : Phần đọc dữ liệu và tính toán.
 + Phần đọc dữ liệu :
