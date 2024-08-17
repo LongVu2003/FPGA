@@ -14,8 +14,9 @@
 	- done_Dh : Khi tính toán xong giá trị Dh
 	- out_Hq_r , out_Hq_i : Giá trị thực và ảo của các thành phần trong ma trận kết quả.
         
-- Mô tả chức năng chung
- Chia làm 2 phần : Phần đọc dữ liệu và tính toán.
+- Mô tả chức năng chung : 
+-> Chia làm 2 phần : Phần đọc dữ liệu và tính toán.
+
 + Phần đọc dữ liệu :
 
 ![image](https://github.com/user-attachments/assets/f9bb3076-0cbf-4b04-8d1b-dcc7d0aec4c2)
@@ -32,14 +33,14 @@
  
 ![image](https://github.com/user-attachments/assets/39512030-9396-496f-b23c-74bc79147726)
 
+![image](https://github.com/user-attachments/assets/dc760cc5-2daa-4736-addc-cd7fa2dd3266)
+
 -> Mô tả tín hiệu
-        - load_H : Load dữ liệu của ma trận H vào bộ nhớ mỗi khi tín hiệu lên mức 1.
-        - addr_colS : Địa chỉ dùng để truy cập vào LUT S để gọi ra cột của ma trận S
-        - addr_ s : Địa chỉ dùng để truy cập vào LUT S để gọi ra ma trân S (S1- S16)
-        - addr_h : Địa chỉ dùng để truy cập vào bộ nhớ chứa ma trận H để gọi ra hàng của ma trận H
-        
 
-
+	- load_H : Load dữ liệu của ma trận H vào bộ nhớ mỗi khi tín hiệu lên mức 1.
+	- addr_colS : Địa chỉ dùng để truy cập vào LUT S để gọi ra cột của ma trận S
+	- addr_ s : Địa chỉ dùng để truy cập vào LUT S để gọi ra ma trân S (S1- S16)
+	- addr_h : Địa chỉ dùng để truy cập vào bộ nhớ chứa ma trận H để gọi ra hàng của ma trận H
 
  + Phần tính toán
 ![image](https://github.com/user-attachments/assets/08755d60-6e50-4edb-9c3e-7a26f3959180)
@@ -56,14 +57,3 @@
 ## C. Công việc tiếp theo.
  + Mô tả Block 2
 ## D. Linh kiện đang giữ.
-
-
-
-
-
-
-
-
-
-
-
