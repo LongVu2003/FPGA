@@ -1,0 +1,65 @@
+module Read_data(
+	input clk,rst,load_h,
+	output done_h,
+	output reg_ck_h,
+	output reg add_col,
+	output reg [2:0] cnt_8,
+	output reg [3:0] add_s,
+	output reg [1:0] add_h,
+	output reg [1:0] out
+); 
+	wire equal,mod_16;
+	wire reg_done_h;
+	wire [1:0] reg_add_h;
+	
+	reg add_col_d, add_col_dd;
+	reg cnt_8d, cnt_8dd;
+	
+	assign reg_do_h = load_h | reg_done_h;
+	assign reg_ck_h=reg_do_h;
+	assign reg_add_h = add_h;
+	
+	assign equal=(add_col)?1:0;
+	assign mod_16=(cnt_8==7)?1:0;
+	assign reg_done_h = (add_s == 15)? 1 :0;
+	
+	assign done_h = reg_done_h;
+	
+	reg [1:0] ram [3:0];
+	
+	initial begin
+		ram[0] <= 3;
+		ram[1] <= 1;
+		ram[2] <= 2;
+		ram[3] <= 0;
+	end
+	always @(posedge clk) begin
+		if(rst) add_col<=0;
+		else add_col<=~add_col;
+	end
+	
+	always @(posedge clk) begin
+		if(rst) cnt_8<=0;
+		else if(load_h) cnt_8 <= 0;
+		else cnt_8<=cnt_8+1;
+	end
+	
+	always @(posedge clk) begin
+		if(rst) add_s<=0;
+		else if(load_h) add_s <= 0;
+		else if(mod_16) add_s<=add_s+1;
+	end
+	
+	always @(posedge clk) begin
+		if(rst) add_h<=0;
+		else if(load_h) add_h <= 0;
+		else if(equal) add_h<=add_h+1;
+	end
+	// out
+	
+	always @(posedge clk) begin
+	if(rst) out <= 0;
+	else if(equal) out<= ram[reg_add_h];
+	end
+	
+endmodule 

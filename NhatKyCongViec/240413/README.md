@@ -140,5 +140,7 @@ Thực hiện nhân 2 ma trận sau :
 
 
 ### C Công việc tiếp theo.
+
+
 ### D Khó khăn đang gặp phải
 - Mong thầy cho em nhận xét và thêm hướng dẫn ạ.
