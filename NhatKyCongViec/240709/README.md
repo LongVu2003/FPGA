@@ -55,5 +55,6 @@
 ## B. Khó khăn đang gặp
 
 ## C. Công việc tiếp theo.
- + Mô tả Block 2
+ + Mô tả sơ đồ khối cho khối nhân, khối cộng, khối cộng tích lũy
+ + Mô tả sơ đồ khối cho block 2
 ## D. Linh kiện đang giữ.
