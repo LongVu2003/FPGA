@@ -126,6 +126,7 @@ Khối ADD là một mạch tổ hợp có 4 input và 1 output.
 
 ## C. Công việc tiếp theo.
  + Mô tả Block 2
+ + Mong thầy cho em xin nhận xét ạ
 ## D. Tài liệu tham khảo : 
 1. [Thuat toan SO-ML_ver3.docx](https://github.com/user-attachments/files/16647141/Thuat.toan.SO-ML_ver3.docx)
 2. [Efficient_Implementation_of_Complex_Multipliers_on_FPGAs_Using_DSP_Slices.pdf](https://github.com/user-attachments/files/16647143/Efficient_Implementation_of_Complex_Multipliers_on_FPGAs_Using_DSP_Slices.pdf)
