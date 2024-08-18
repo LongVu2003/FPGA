@@ -22,5 +22,9 @@
 - Link báo cáo [Báo cáo ngày 17/8/2024](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240709/README.md)
 - Công việc đã làm:
 	1. Vẽ sơ đồ khối cho Block 1
-	2. Mô tả chi tiết hoạt động, chức năng của từng khối nằm trong block 1.		
+	2. Mô tả chi tiết hoạt động, chức năng của từng khối nằm trong block 1.	
+		+ Khối nhân 2 số phức
+		+ Khối cộng
+		+ Khối bình phương
+		+ Khối cộng tích lũy
 

@@ -3,6 +3,10 @@
 ## A. Công Việc Đã Làm
 - 1. Vẽ sơ đồ khối cho Block 1
 - 2. Mô tả chi tiết hoạt động, chức năng của từng khối 
+	 + Khối nhân 2 số phức
+	 + Khối cộng
+	 + Khối bình phương
+	 + Khối cộng tích lũy
 ## B. Chi tiết công việc
 ### 1. Vẽ sơ đồ khối cho Block 1 
 **Sơ đồ tổng quan tín hiệu**
