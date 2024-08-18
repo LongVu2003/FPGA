@@ -39,7 +39,7 @@
 
 **- Sơ đồ khối bên trong khối reg_H_r :** 
 
- ![image](https://github.com/user-attachments/assets/159b7eee-838a-4b65-a60a-f7adcbd458c0)
+![image](https://github.com/user-attachments/assets/ba37f46b-9110-4905-9272-2d151b6767af)
 
  - Wave form của phần đọc dữ liệu : 
  
