@@ -96,6 +96,7 @@ Hình trên thể hiện sơ đồ của bộ nhân số phức được đề x
 
  ### 2. Mô tả sơ đồ khối nhân 2 số phức có dạng số fixed-point (Các khối Mul1 - Mul4)
 **1.  Khối ADD.**
+
 ![image](https://github.com/user-attachments/assets/74559dc4-20ad-47e7-82a4-81a992465af1)
 
 Khối ADD là một mạch tổ hợp có 4 input và 1 output.
@@ -104,11 +105,13 @@ Khối ADD là một mạch tổ hợp có 4 input và 1 output.
 > - Trong khối ADD gồm 3 bộ cộng half adder để thực hiện 3 phép cộng cho 4 số.
 
 **2. Khối bình phương.**
+
 ![image](https://github.com/user-attachments/assets/5d360bc2-c847-4bb1-8584-7ff06ad0847e)
 
 > Khối bình phương sử dụng mạch tổ hợp nhân 2 số có dạng fixed - point.
 
 **3. Khối cộng tích lũy.**
+
 ![image](https://github.com/user-attachments/assets/262e2f87-9480-43bf-821d-4209c7887629)
 
 - Khối  cộng tích lũy có 3 input A, rst, Clk và 1 output kết quả.
