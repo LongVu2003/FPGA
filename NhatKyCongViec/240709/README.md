@@ -64,11 +64,14 @@
 **1. Background**
 
 > Thực hiện nhân 2 số phức có dạng : (Xr+jXi) và (Yr+jYi) được định nghĩa như sau : 
-> - Zr = XrYr - XiYi 
-> - Zi = XrYi + YrXi
+>  Zr = XrYr - XiYi 
+>  Zi = XrYi + YrXi
+
 >Trong đó Zr là phần thực của kết quả và Zi là phần ảo. Nếu thức hiện theo cách tính trực tiếp, ta sẽ cần sử dụng 4 bộ nhân và 2 bộ cộng. Tuy nhiên sẽ biến đổi biểu thức trên để chỉ cần sử dụng 3 bộ nhân như sau : 
-> - Zr  =  Xr . ( Yr - Yi )  + Yi . (Xr - Xi),
-> - Zi  =   Xi . ( Yr + Yi ) + Yi . (Xr - Xi).
+
+>  Zr  =  Xr . ( Yr - Yi )  + Yi . (Xr - Xi),
+>  Zi  =   Xi . ( Yr + Yi ) + Yi . (Xr - Xi).
+
 > Ta có thể thấy 2 phép tính trên có cùng 1 biểu thức chung đó là Yi . (Xr - Xi).
 > Do đó ta chỉ cần thực hiện tính 1 lần đối với biểu thức này. Như vậy ta sẽ sử dụng 3 bộ nhân và 5 bộ cộng cho nên sẽ giảm được diện tích bởi vì bộ nhân yêu cầu nhiều diện tích hơn bộ cộng
 
