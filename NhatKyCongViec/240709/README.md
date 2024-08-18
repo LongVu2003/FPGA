@@ -95,7 +95,7 @@ Hình trên thể hiện sơ đồ của bộ nhân số phức được đề x
 > - Để tính toán phép nhân số phức chính xác, các khối DSP MIDDLE và LOWER cần kết quả từ khối DSP UPPER sau ba chu kỳ xung nhịp kể từ khi dữ liệu được đưa vào các khối DSP này. Kết quả của khối DSP UPPER được chuyển đến bộ cộng thứ hai trong các khối DSP MIDDLE và LOWER sau năm chu kỳ xung nhịp kể từ khi dữ liệu đầu vào được chuyển đến khối DSP UPPER, tức là bốn chu kỳ xung nhịp từ độ trễ của khối DSP UPPER cộng thêm một chu kỳ từ thanh ghi đầu vào trong đường dẫn C đến P của các khối DSP MIDDLE và LOWER."
 
  ### 2. Mô tả sơ đồ khối nhân 2 số phức có dạng số fixed-point (Các khối Mul1 - Mul4)
-**- 1.  Khối ADD.**
+**1.  Khối ADD.**
 ![image](https://github.com/user-attachments/assets/74559dc4-20ad-47e7-82a4-81a992465af1)
 
 Khối ADD là một mạch tổ hợp có 4 input và 1 output.
@@ -103,17 +103,18 @@ Khối ADD là một mạch tổ hợp có 4 input và 1 output.
 > - output là : số thực biểu diễn theo dấu phẩy tĩnh.
 > - Trong khối ADD gồm 3 bộ cộng half adder để thực hiện 3 phép cộng cho 4 số.
 
-**- 2. Khối bình phương.**
+**2. Khối bình phương.**
 ![image](https://github.com/user-attachments/assets/5d360bc2-c847-4bb1-8584-7ff06ad0847e)
 
 > Khối bình phương sử dụng mạch tổ hợp nhân 2 số có dạng fixed - point.
-.
-- 3. Khối cộng tích lũy.
+
+**3. Khối cộng tích lũy.**
 ![image](https://github.com/user-attachments/assets/262e2f87-9480-43bf-821d-4209c7887629)
-     - Khối  cộng tích lũy có 3 input A, rst, Clk và 1 output kết quả.
-     - A : data dữ liệu.
-     - rst có chức năng làm mới thanh ghi và đưa giá trị B về giá trị 0.
-     - Clk là clock tín hiệu.
+
+- Khối  cộng tích lũy có 3 input A, rst, Clk và 1 output kết quả.
+- A : data dữ liệu.
+- rst có chức năng làm mới thanh ghi và đưa giá trị B về giá trị 0.
+- Clk là clock tín hiệu.
 ## B. Khó khăn đang gặp
 
 ## C. Công việc tiếp theo.
