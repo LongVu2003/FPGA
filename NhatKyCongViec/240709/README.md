@@ -66,7 +66,6 @@
 > Thực hiện nhân 2 số phức có dạng : (Xr+jXi) và (Yr+jYi) được định nghĩa như sau : 
 
 > - Zr = XrYr - XiYi 
-
 > - Zi = XrYi + YrXi
 
 >Trong đó Zr là phần thực của kết quả và Zi là phần ảo. Nếu thức hiện theo cách tính trực tiếp, ta sẽ cần sử dụng 4 bộ nhân và 2 bộ cộng. Tuy nhiên sẽ biến đổi biểu thức trên để chỉ cần sử dụng 3 bộ nhân như sau : 
