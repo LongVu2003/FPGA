@@ -45,12 +45,13 @@
  
 ![image](https://github.com/user-attachments/assets/39512030-9396-496f-b23c-74bc79147726)
 ![image](https://github.com/user-attachments/assets/dc760cc5-2daa-4736-addc-cd7fa2dd3266)
+
 > -> Mô tả tín hiệu
->         - load_H : Load dữ liệu của ma trận H vào bộ nhớ mỗi khi tín hiệu lên mức 1.
->         - addr_colS : Địa chỉ dùng để truy cập vào LUT S để gọi ra cột của ma trận S
->         - addr_ s : Địa chỉ dùng để truy cập vào LUT S để gọi ra ma trân S (S1- S16)
->         - addr_h : Địa chỉ dùng để truy cập vào bộ nhớ chứa ma trận H để gọi ra hàng của ma trận H
->         
+
+> - load_H : Load dữ liệu của ma trận H vào bộ nhớ mỗi khi tín hiệu lên mức 1.
+> - addr_colS : Địa chỉ dùng để truy cập vào LUT S để gọi ra cột của ma trận S
+> - addr_ s : Địa chỉ dùng để truy cập vào LUT S để gọi ra ma trân S (S1- S16)
+> - addr_h : Địa chỉ dùng để truy cập vào bộ nhớ chứa ma trận H để gọi ra hàng của ma trận H        
 
 
 
