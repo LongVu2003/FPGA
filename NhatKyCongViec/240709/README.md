@@ -91,34 +91,22 @@ Hình trên thể hiện sơ đồ của bộ nhân số phức được đề x
 > - Vì hạng tử Yi⋅(Xr−Xi) được chia sẻ giữa phần thực và phần ảo, nên kết quả tạm thời này cần được cung cấp cho hai khối DSP khác. 
 > - Khối DSP MIDDLE tính toán biểu thức Xr⋅(Yr−Yi) trong bộ cộng đầu tiên kết hợ với bộ nhân. Bộ cộng cuối cùng cộng biểu thức này với kết quả từ khối DSP UPPER, tạo ra phần thực của phép nhân số phức. 
 > - Tương tự, trong khối DSP LOWER, hạng tử  Xi⋅(Yr−Yi) được tính toán và sau đó được cộng với kết quả từ khối DSP UPPER, tạo ra phần ảo của phép nhân số phức.
-> Để đạt được tần số xung nhịp tối đa, kết quả từ khối DSP UPPER cần được ghi lại, cả ở đầu ra của khối DSP UPPER và ở đầu vào của hai khối DSP khác. Nếu không, tần số xung nhịp tối đa có thể đạt được sẽ bị giảm do độ trễ do sự kết nối giữa các khối DSP gây ra.
-> Để tính toán phép nhân số phức chính xác, các khối DSP MIDDLE và LOWER cần kết quả từ khối DSP UPPER sau ba chu kỳ xung nhịp kể từ khi dữ liệu được đưa vào các khối DSP này. Kết quả của khối DSP UPPER được chuyển đến bộ cộng thứ hai trong các khối DSP MIDDLE và LOWER sau năm chu kỳ xung nhịp kể từ khi dữ liệu đầu vào được chuyển đến khối DSP UPPER, tức là bốn chu kỳ xung nhịp từ độ trễ của khối DSP UPPER cộng thêm một chu kỳ từ thanh ghi đầu vào trong đường dẫn C đến P của các khối DSP MIDDLE và LOWER."
+> - Để đạt được tần số xung nhịp tối đa, kết quả từ khối DSP UPPER cần được ghi lại, cả ở đầu ra của khối DSP UPPER và ở đầu vào của hai khối DSP khác. Nếu không, tần số xung nhịp tối đa có thể đạt được sẽ bị giảm do độ trễ do sự kết nối giữa các khối DSP gây ra.
+> - Để tính toán phép nhân số phức chính xác, các khối DSP MIDDLE và LOWER cần kết quả từ khối DSP UPPER sau ba chu kỳ xung nhịp kể từ khi dữ liệu được đưa vào các khối DSP này. Kết quả của khối DSP UPPER được chuyển đến bộ cộng thứ hai trong các khối DSP MIDDLE và LOWER sau năm chu kỳ xung nhịp kể từ khi dữ liệu đầu vào được chuyển đến khối DSP UPPER, tức là bốn chu kỳ xung nhịp từ độ trễ của khối DSP UPPER cộng thêm một chu kỳ từ thanh ghi đầu vào trong đường dẫn C đến P của các khối DSP MIDDLE và LOWER."
 
  ### 2. Mô tả sơ đồ khối nhân 2 số phức có dạng số fixed-point (Các khối Mul1 - Mul4)
 **- 1.  Khối ADD.**
 ![image](https://github.com/user-attachments/assets/74559dc4-20ad-47e7-82a4-81a992465af1)
 
->      -  Khối ADD là một mạch tổ hợp có 4 input và 1 output.
->      - 4 input là : 4 số thực biểu diễn theo dấu phẩy tĩnh.
->      - output là : số thực biểu diễn theo dấu phẩy tĩnh.
->      - Trong khối ADD gồm 3 bộ cộng half adder để thực hiện 3 phép cộng cho 4 số.
+Khối ADD là một mạch tổ hợp có 4 input và 1 output.
+> - 4 input là : 4 số thực biểu diễn theo dấu phẩy tĩnh.
+> - output là : số thực biểu diễn theo dấu phẩy tĩnh.
+> - Trong khối ADD gồm 3 bộ cộng half adder để thực hiện 3 phép cộng cho 4 số.
 
 **- 2. Khối bình phương.**
-![image](https://github.com/user-attachments/assets/4f018745-40ce-4811-acd7-df59602dca53)
+![image](https://github.com/user-attachments/assets/5d360bc2-c847-4bb1-8584-7ff06ad0847e)
 
->      - nguồn link tham khảo: [https://www.edaboard.com/threads/verilog-code-for-square-of-a-number-without-using-operator.173075/](url)
->      -  Bộ bình phương có 2 input là A(giá trị cần bình phương) và clock, output là giá trị bình phương.
->      -  Nguyên lý : dựa trên thuật toán đơn giản của phép bình phương.
-
-   
-      | Header | Header |
-      |--------|--------|
-      | 2^2 | 2+2 |
-      | 3^2 | 3+3+3 |
-      | 4^2 | 4+4+4+4 |
-      | 5^2 | 5+5+5+5+5 | 
-
->      - Trong khối bình phương có sử dụng 1 bộ cộng adder và các thanh ghi điều khiển
+> Khối bình phương sử dụng mạch tổ hợp nhân 2 số có dạng fixed - point.
 .
 - 3. Khối cộng tích lũy.
 ![image](https://github.com/user-attachments/assets/262e2f87-9480-43bf-821d-4209c7887629)
@@ -126,8 +114,6 @@ Hình trên thể hiện sơ đồ của bộ nhân số phức được đề x
      - A : data dữ liệu.
      - rst có chức năng làm mới thanh ghi và đưa giá trị B về giá trị 0.
      - Clk là clock tín hiệu.
-- 4. Khối qmul.
-![image](https://github.com/user-attachments/assets/5d360bc2-c847-4bb1-8584-7ff06ad0847e)
 ## B. Khó khăn đang gặp
 
 ## C. Công việc tiếp theo.
