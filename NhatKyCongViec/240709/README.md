@@ -40,7 +40,7 @@
  - Wave form của phần đọc dữ liệu : 
  
 ![image](https://github.com/user-attachments/assets/39512030-9396-496f-b23c-74bc79147726)
-
+![image](https://github.com/user-attachments/assets/dc760cc5-2daa-4736-addc-cd7fa2dd3266)
 > -> Mô tả tín hiệu
 >         - load_H : Load dữ liệu của ma trận H vào bộ nhớ mỗi khi tín hiệu lên mức 1.
 >         - addr_colS : Địa chỉ dùng để truy cập vào LUT S để gọi ra cột của ma trận S
@@ -60,8 +60,8 @@
 >      - Stage 4 : Thực hiện cộng tích lũy các kết quả nhận được từ stage 3.
 >      - Stage 5 : Ghi lại kết quả D_h cuối cùng
 
- ### 2.1 Mô tả sơ đồ khối nhân 2 số phức có dạng số fixed-point
-1. Background
+ ### 2.1 Mô tả sơ đồ khối nhân 2 số phức có dạng số fixed-point (Các khối Mul1 - Mul4)
+**1. Background**
 
 > Thực hiện nhân 2 số phức có dạng : (Xr+jXi) và (Yr+jYi) được định nghĩa như sau : 
 Zr = XrYr - XiYi 
@@ -72,7 +72,7 @@ Zi  =   Xi . ( Yr + Yi ) + Yi . (Xr - Xi).
 Ta có thể thấy 2 phép tính trên có cùng 1 biểu thức chung đó là Yi . (Xr - Xi).
 Do đó ta chỉ cần thực hiện tính 1 lần đối với biểu thức này. Như vậy ta sẽ sử dụng 3 bộ nhân và 5 bộ cộng cho nên sẽ giảm được diện tích bởi vì bộ nhân yêu cầu nhiều diện tích hơn bộ cộng
 
-**- Cách triển khai một bộ nhân số phức sử dụng ba bộ nhân và năm bộ cộng :**
+**2. Cách triển khai một bộ nhân số phức sử dụng ba bộ nhân và năm bộ cộng :**
 
 ![image](https://github.com/user-attachments/assets/ffac39f3-b57d-4a3e-84f6-09ca5e5899c9)
 
@@ -90,7 +90,40 @@ Hình trên thể hiện sơ đồ của bộ nhân số phức được đề x
 > Để đạt được tần số xung nhịp tối đa, kết quả từ khối DSP UPPER cần được ghi lại, cả ở đầu ra của khối DSP UPPER và ở đầu vào của hai khối DSP khác. Nếu không, tần số xung nhịp tối đa có thể đạt được sẽ bị giảm do độ trễ do sự kết nối giữa các khối DSP gây ra.
 > Để tính toán phép nhân số phức chính xác, các khối DSP MIDDLE và LOWER cần kết quả từ khối DSP UPPER sau ba chu kỳ xung nhịp kể từ khi dữ liệu được đưa vào các khối DSP này. Kết quả của khối DSP UPPER được chuyển đến bộ cộng thứ hai trong các khối DSP MIDDLE và LOWER sau năm chu kỳ xung nhịp kể từ khi dữ liệu đầu vào được chuyển đến khối DSP UPPER, tức là bốn chu kỳ xung nhịp từ độ trễ của khối DSP UPPER cộng thêm một chu kỳ từ thanh ghi đầu vào trong đường dẫn C đến P của các khối DSP MIDDLE và LOWER."
 
+ ### 2. Mô tả sơ đồ khối nhân 2 số phức có dạng số fixed-point (Các khối Mul1 - Mul4)
+**- 1.  Khối ADD.**
+![image](https://github.com/user-attachments/assets/74559dc4-20ad-47e7-82a4-81a992465af1)
 
+>      -  Khối ADD là một mạch tổ hợp có 4 input và 1 output.
+>      - 4 input là : 4 số thực biểu diễn theo dấu phẩy tĩnh.
+>      - output là : số thực biểu diễn theo dấu phẩy tĩnh.
+>      - Trong khối ADD gồm 3 bộ cộng half adder để thực hiện 3 phép cộng cho 4 số.
+
+**- 2. Khối bình phương.**
+![image](https://github.com/user-attachments/assets/4f018745-40ce-4811-acd7-df59602dca53)
+
+>      - nguồn link tham khảo: [https://www.edaboard.com/threads/verilog-code-for-square-of-a-number-without-using-operator.173075/](url)
+>      -  Bộ bình phương có 2 input là A(giá trị cần bình phương) và clock, output là giá trị bình phương.
+>      -  Nguyên lý : dựa trên thuật toán đơn giản của phép bình phương.
+
+   
+      | Header | Header |
+      |--------|--------|
+      | 2^2 | 2+2 |
+      | 3^2 | 3+3+3 |
+      | 4^2 | 4+4+4+4 |
+      | 5^2 | 5+5+5+5+5 | 
+
+>      - Trong khối bình phương có sử dụng 1 bộ cộng adder và các thanh ghi điều khiển
+.
+- 3. Khối cộng tích lũy.
+![image](https://github.com/user-attachments/assets/262e2f87-9480-43bf-821d-4209c7887629)
+     - Khối  cộng tích lũy có 3 input A, rst, Clk và 1 output kết quả.
+     - A : data dữ liệu.
+     - rst có chức năng làm mới thanh ghi và đưa giá trị B về giá trị 0.
+     - Clk là clock tín hiệu.
+- 4. Khối qmul.
+![image](https://github.com/user-attachments/assets/5d360bc2-c847-4bb1-8584-7ff06ad0847e)
 ## B. Khó khăn đang gặp
 
 ## C. Công việc tiếp theo.
