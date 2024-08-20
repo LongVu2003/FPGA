@@ -1,0 +1,40 @@
+module TB_ReadData();
+	reg clk,rst,load_h;
+	wire done_h;
+	wire add_col;
+	wire [2:0] cnt_8;
+	wire [3:0] add_s;
+	wire [1:0] add_h;
+	wire [1:0] out;
+	
+	// instance
+	lus dut(clk,rst,load_h,done_h,reg_ck_h,add_col, cnt_8,add_s,add_h,out);
+	
+	//stimulus
+	initial begin
+	clk = 0;
+	forever #5 clk = ~clk;
+	end
+	
+	// rst 
+	initial begin
+	#5;
+	rst = 1;
+	#10;
+	rst = 0;
+	end
+	
+	// load_h
+	initial begin
+	#5;
+	load_h = 1;
+	#10;
+	load_h = 0;
+	end
+	// stop
+	initial begin
+	#1500
+	$stop;
+	end
+	
+endmodule 

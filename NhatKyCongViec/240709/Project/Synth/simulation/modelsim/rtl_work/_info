@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/Synth/simulation/modelsim
+vRead_data
+Z1 !s110 1723862565
+!i10b 1
+!s100 gQ47RHf92?>S]8jKIk8?I1
+I5mfQZ>>5EEETURcMHGagC0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1723650320
+8C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/RTL/Des/Read_data.v
+FC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/RTL/Des/Read_data.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1723862565.000000
+!s107 C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/RTL/Des/Read_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/RTL/Des|C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/RTL/Des/Read_data.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/RTL/Des}
+Z5 tCvgOpt 0
+n@read_data
+vTB_ReadData
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 dQ3mGALnRf^zN_B<[eciR0
+IT[FPXgC@C;;ZhN2X^`7]Z0
+R2
+!s105 TB_ReadData_sv_unit
+S1
+R0
+w1723623299
+8C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/Synth/../RTL/Tb/TB_ReadData.sv
+FC:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/Synth/../RTL/Tb/TB_ReadData.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/Synth/../RTL/Tb/TB_ReadData.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/Synth/../RTL/Tb|C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/Synth/../RTL/Tb/TB_ReadData.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/DELL/OneDrive - ptit.edu.vn/Documents/FPGA/NhatKyCongViec/240709/Project/Synth/../RTL/Tb}
+R5
+n@t@b_@read@data
