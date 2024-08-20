@@ -28,7 +28,7 @@
 		+ Khối cộng tích lũy
 
 ## Báo Cáo Công Việc Ngày 20/08/2024
-- Link báo cáo [Báo cáo ngày 20/8/2024](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240709/README.md)
+- Link báo cáo [Báo cáo ngày 20/8/2024](https://github.com/LongVu2003/FPGA/blob/main/NhatKyCongViec/240817/README.md)
 - Công việc đã làm:
 	1. Vẽ sơ đồ khối cho Block 2
 	2. Mô tả chi tiết từng khối nhỏ nằm trong Block 2
