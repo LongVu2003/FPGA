@@ -26,12 +26,12 @@
 
 #### b. Sơ đồ khối chi tiết cho Block2.
 
-![image](https://github.com/user-attachments/assets/6f7c7e03-e387-4fc1-9531-b7888e854389)
+![image](https://github.com/user-attachments/assets/fd11a804-5d1a-45fa-a233-d8c6c7bfb23c)
 
 **-Mô tả :**
 **1. Khối Counter :** 
 
-![image](https://github.com/user-attachments/assets/c4beaa54-1e6f-45ea-a67a-07b5a7b6d683)
+![image](https://github.com/user-attachments/assets/c7f02226-739c-4801-8ad9-abbaf83ce6b8)
 
 > Khối counter có chức năng là tạo ra các tín hiệu địa chỉ giúp truy cập giá trị được lưu trong LUT và thanh ghi lưu trữ ma trận Hq.
 
