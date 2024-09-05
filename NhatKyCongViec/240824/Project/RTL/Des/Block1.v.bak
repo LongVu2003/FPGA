@@ -1,0 +1,5 @@
+module block1(
+	input [15:0] Hr1,Hr2,Hr3,Hr4,Hr5,Hr6,Hr7,Hr8,Hr9,Hr10,Hr11,Hr12,Hr13,Hr14,Hr15,Hr16,
+	input [15:0] Hi1,Hi2,Hi3,Hi4,Hi5,Hr6,Hr7,Hr8,Hr9,Hr10,Hr11,Hr12,Hr13,Hr14,Hr15,Hr16,
+
+);

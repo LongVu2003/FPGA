@@ -1,0 +1,397 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pr[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pi[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ar[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[15]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[15]",
+					"strict" : false
+				},
+				{
+					"name" : "br[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ar[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ai[14]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[14]",
+					"strict" : false
+				},
+				{
+					"name" : "br[14]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[0]",
+					"strict" : false
+				},
+				{
+					"name" : "br[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[1]",
+					"strict" : false
+				},
+				{
+					"name" : "br[1]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[2]",
+					"strict" : false
+				},
+				{
+					"name" : "br[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[3]",
+					"strict" : false
+				},
+				{
+					"name" : "br[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[4]",
+					"strict" : false
+				},
+				{
+					"name" : "br[4]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[5]",
+					"strict" : false
+				},
+				{
+					"name" : "br[5]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[6]",
+					"strict" : false
+				},
+				{
+					"name" : "br[6]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[7]",
+					"strict" : false
+				},
+				{
+					"name" : "br[7]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[8]",
+					"strict" : false
+				},
+				{
+					"name" : "br[8]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[9]",
+					"strict" : false
+				},
+				{
+					"name" : "br[9]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[10]",
+					"strict" : false
+				},
+				{
+					"name" : "br[10]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[11]",
+					"strict" : false
+				},
+				{
+					"name" : "br[11]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[12]",
+					"strict" : false
+				},
+				{
+					"name" : "br[12]",
+					"strict" : false
+				},
+				{
+					"name" : "bi[13]",
+					"strict" : false
+				},
+				{
+					"name" : "br[13]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
