@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Oct 12 10:20:53 2024
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : VGA_TEST
+Top-level Entity Name : lab8
+Family : MAX 10
+Total logic elements : 6,576
+    Total combinational functions : 5,608
+    Dedicated logic registers : 2,459
+Total registers : 2459
+Total pins : 56
+Total virtual pins : 0
+Total memory bits : 11,392
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

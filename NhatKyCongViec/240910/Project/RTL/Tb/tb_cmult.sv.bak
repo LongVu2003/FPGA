@@ -1,0 +1,37 @@
+module tb_cmult;	
+	reg clk;
+	reg signed [15:0] ar, ai;
+	reg signed [15:0] br, bi;
+	wire signed [32:0] pr, pi;
+	
+	cmult #(16,16) c0(.ar(ar),.ai(ai),.br(br),.bi(bi),.pr(pr),.pi(pi));
+	
+	always #5 clk = ~clk;
+	initial begin
+	
+		clk = 0;
+		ar = 0; 
+		ai = 0;
+		br = 0; 
+		bi = 0;
+		#5
+//		#10 
+//		ar = 16'h0080; ai = 16'h0080;
+//		br = 16'h0100; bi = 16'h0000;
+//		
+		ar = 5; 
+		ai = 5;
+		br = 1; 
+		bi = 0;
+		
+		#100
+		ar = 4; 
+		ai = 5;
+		br = 1; 
+		bi = 0;
+		
+		#500 $stop;
+	end
+endmodule
+
+		
