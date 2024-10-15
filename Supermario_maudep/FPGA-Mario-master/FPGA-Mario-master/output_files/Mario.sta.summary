@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -16.253
+TNS   : -2139.721
+
+Type  : Slow 1200mV 85C Model Setup 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.094
+TNS   : -21.415
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.607
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.680
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.709
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -13.176
+TNS   : -1525.377
+
+Type  : Slow 1200mV 0C Model Setup 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.553
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.716
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.687
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : 5.233
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 10.422
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.436
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vgapll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.748
+TNS   : 0.000
+
+------------------------------------------------------------
